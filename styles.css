@@ -107,3 +107,15 @@ body .navigation {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    body .navigation .searchandlogin ul button {
+      text-decoration: none;
+      border: none;
+      font-weight: bold;
+      width: 120px;
+      height: 40px; }
+    body .navigation .searchandlogin ul li:nth-child(2) {
+      background: none;
+      color: #6c757d; }
+    body .navigation .searchandlogin ul li:last-child {
+      color: #fff;
+      background-color: red; }
